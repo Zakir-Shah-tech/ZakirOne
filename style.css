@@ -21,6 +21,27 @@ body {
     cursor: pointer;
 }
 
+/* ---------------- TOP DISCLAIMER BANNER ---------------- */
+.disclaimer-banner {
+    background: linear-gradient(90deg, #f59e0b, #fbbf24);
+    color: #111827;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 8px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.disclaimer-banner i {
+    font-size: 0.95rem;
+    color: #111827;
+}
+
 /* ---------------- HEADER & NAVBAR ---------------- */
 header {
     width: 100%;
@@ -40,12 +61,12 @@ header {
 
 /* Logo */
 .logo {
-    background-image: url('images/amazon_logo.svg');
+    background-image: url('logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 40px;
-    width: 90px;
+    height: 44px;
+    width: 55px;
 }
 
 /* Address Box */
@@ -179,8 +200,8 @@ span {
 
 /* ---------------- HERO SECTION ---------------- */
 .hero-section {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 55%, rgba(227,230,230,1) 100%), url('images/hero.jpg');
-    height: 380px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 55%, rgba(227,230,230,1) 100%), url('hero_banner.jpg');
+    height: 350px;
     background-size: cover;
     background-position: top center;
     display: flex;
@@ -257,6 +278,7 @@ span {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #eaeded;
     margin: 15px 0;
     border-radius: 4px;
 }
@@ -325,12 +347,12 @@ footer {
 }
 
 .lolo {
-    background-image: url('https://pngimg.com/uploads/amazon/amazon_PNG11.png');
+    background-image: url('logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 40px;
-    width: 90px;
+    height: 44px;
+    width: 55px;
     cursor: pointer;
 }
 
@@ -408,5 +430,10 @@ footer {
 
     .hero-section {
         height: 220px;
+    }
+
+    .disclaimer-banner {
+        font-size: 0.75rem;
+        padding: 6px 10px;
     }
 }
